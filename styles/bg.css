@@ -1,0 +1,21 @@
+body{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
+}
+.contactTable{
+	background-color:yellow;
+}
+
+.slider{
+	width:96%;
+	height:20%;
+	
+	box-shadow: 5px 5px 5px grey;
+	margin:20px auto;
+}
+.img{
+	width:100%;
+	height:100%
+}

@@ -1,0 +1,162 @@
+#headerTable{
+	background-image: linear-gradient(red, yellow,red);
+	box-shadow: 5px 5px 5px grey;
+	
+}
+.ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 6px;
+  float:right;
+  overflow: hidden;
+  
+  float:right;
+
+}
+.ul2 {
+  list-style-type: none;
+  margin: 0;
+  width="";
+  float:left;
+  overflow: hidden;
+ color:black;
+  }
+table tr td ul li {
+	display:inline;
+}
+li a{
+  color: white;
+  padding: 6px 8px;
+  text-decoration: none;
+}
+.searchbar{
+	float:center;
+	width:80%;
+	border-radius:0px;
+	box-shadow: 5px 5px 5px grey;
+	background-color:white;
+	
+}
+.cartButton{
+	border-radius:25px;
+	width:100;
+	float:right;
+	box-shadow: 5px 5px 5px grey;
+	background-color:#ff5e32;
+	margin-right:20;
+}
+
+.dropbox{
+	color:white;
+	padding: 8px 16px;
+  
+	border-color: transparent transparent rgba(0, 0, 0, 0.0);
+	background-color: transparent;
+}
+body{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
+}
+.active {
+  color:black;  
+}
+.contentArea{
+	float:center;
+	display:inline;
+	
+}
+.contentArea div {
+	padding:150px 500px;
+	border:5px;
+	margin:5px;
+	
+}
+.addSpace{
+	
+	background-color:white;
+	margin:10;
+	padding: 20 0;
+	border: 3px solid blue;
+	text-align: center;
+	
+}
+.itemCard{
+	width:210;
+	height:275;
+	margin:20;
+	background-color:orange;
+	overflow: auto;
+	display: block;
+	float:left;
+	box-shadow: 10px 10px 10px grey;
+	
+}
+.itemCard img{
+	width:210;
+	height:200;
+}
+.h1{
+	color:red;
+	margin:10;
+}
+.sidenav{
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-image: linear-gradient(red, yellow,blue);
+	overflow-x:hidden;
+	transition:0.5s;
+	padding-top:60px;
+	
+	
+}
+.sidenav a{
+	padding: 8px 8px 8px 32px;
+	text-decoration:none;
+	font-size:25px;
+	color:white;
+	display:block;
+	transition:0.3s;
+	
+	
+}
+.sidenav a:hover{
+	color:red;
+}
+.sidenav .closebtn{
+	position:absolute;
+	top:0;
+	right:25px;
+	font-size:36px;
+	margin-left:50px;
+} 
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+.logo{
+	margin-left:20;
+}
+
+footer{
+	clear: left;
+}
+
+.contentarea3{
+	
+	width:90%;
+	height:50%;
+	margin:20;
+	background-color:orange;
+	overflow: auto;
+	display: block;
+	float:left;
+	box-shadow: 10px 10px 10px grey;
+	
+	
+	}
